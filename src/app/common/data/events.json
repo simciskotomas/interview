@@ -1,0 +1,72 @@
+{
+  "upcomingEvents": [
+    {
+      "id": 1,
+      "date": "2020-02-22T04:24:20.098Z",
+      "title": "TECH Conference Europe",
+      "address": {
+        "street": "Zurich",
+        "country": "Switzerland",
+        "municipality": "Zurich",
+        "zip": "00000"
+
+      },
+      "price": null,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 2,
+      "date": "2020-02-22T04:24:20.098Z",
+      "title": "We Are Developers 2020",
+      "address": {
+        "street": "Munich",
+        "country": "Germany",
+        "municipality": "Munich",
+        "zip": "11111"
+      },
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 3,
+      "date": "2020-02-22T04:24:20.098Z",
+      "title": "TEDx Bratislava",
+      "address": {
+        "street": "Bratislava",
+        "country": "Slovakia",
+        "municipality": "Bratislava",
+        "zip": "11111"
+      },
+      "price": null,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ],
+  "pastEvents": [
+    {
+      "id": 1,
+      "date": "2020-02-22T04:24:20.098Z",
+      "title": "DevOps Fusion 2020",
+      "address": {
+        "street": "Zurich",
+        "country": "Switzerland",
+        "municipality": "Zurich",
+        "zip": "00000"
+      },
+      "price": null,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 2,
+      "date": "2020-02-22T04:24:20.098Z",
+      "title": "Computex Taipei",
+      "address": {
+        "street": "Taipei",
+        "country": "Taiwan",
+        "municipality": "Taipei",
+        "zip": "44444"
+      },
+      "price": 950,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ]
+}

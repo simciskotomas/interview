@@ -1,0 +1,27 @@
+<mat-list-item>
+  <mat-list-item>
+    <mat-icon matListIcon>event</mat-icon>
+    <h3 class="event-title" matLine>{{ event.title | uppercase }}</h3>
+    <p matLine>{{ event.address.country }}, {{ event.address.municipality }}</p>
+  </mat-list-item>
+
+  <div>
+    <span class="price" *ngIf="event.price">
+      {{event.price}}€
+    </span>
+
+    <span class="free-price" *ngIf="!event.price">
+      FREE
+    </span>
+  </div>
+
+  <mat-icon
+    class="info-icon"
+    (click)="openEventDetail(event)"
+    matTooltip="Show detail">
+    info
+  </mat-icon>
+
+</mat-list-item>
+
+<mat-divider></mat-divider>

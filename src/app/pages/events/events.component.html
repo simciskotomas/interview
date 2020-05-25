@@ -1,0 +1,19 @@
+<button mat-raised-button color="primary" (click)="addNewEvent()">Add New Event</button>
+
+<mat-tab-group mat-align-tabs="start">
+  <mat-tab label="Past Events">
+    <mat-list class="event-list">
+      <div *ngFor="let event of pastEvents">
+        <app-list-item [event]="event"></app-list-item>
+      </div>
+    </mat-list>
+  </mat-tab>
+
+  <mat-tab label="Upcoming Events">
+    <mat-list class="event-list">
+      <div *ngFor="let event of upcomingEvents">
+        <app-list-item [event]="event"></app-list-item>
+      </div>
+    </mat-list>
+  </mat-tab>
+</mat-tab-group>

@@ -1,0 +1,32 @@
+<h1 mat-dialog-title>Event detail - {{ data.title }}</h1>
+
+<div mat-dialog-content>
+
+  <div>
+    <mat-icon> location_on </mat-icon>
+    {{ data.address.country }}, {{ data.address.municipality }}
+  </div>
+
+  <div>
+    <mat-icon> euro_symbol </mat-icon>
+      <span *ngIf="data.price === null">
+        FREE
+      </span>
+    {{ data.price}}
+  </div>
+
+  <div>
+    <mat-icon> date_range </mat-icon>
+    {{ data.date |  date:'fullDate' }}
+  </div>
+
+  <div>
+    <mat-icon> notes</mat-icon>
+    {{ data.description }}
+  </div>
+</div>
+
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</div>
+
